@@ -1,0 +1,14 @@
+C:\Users\ALİ\Source\Repos\art\art\bin\Debug\net8.0\art.exe
+C:\Users\ALİ\Source\Repos\art\art\bin\Debug\net8.0\art.deps.json
+C:\Users\ALİ\Source\Repos\art\art\bin\Debug\net8.0\art.runtimeconfig.json
+C:\Users\ALİ\Source\Repos\art\art\bin\Debug\net8.0\art.dll
+C:\Users\ALİ\Source\Repos\art\art\bin\Debug\net8.0\art.pdb
+C:\Users\ALİ\Source\Repos\art\art\obj\Debug\net8.0\art.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALİ\Source\Repos\art\art\obj\Debug\net8.0\art.AssemblyInfoInputs.cache
+C:\Users\ALİ\Source\Repos\art\art\obj\Debug\net8.0\art.AssemblyInfo.cs
+C:\Users\ALİ\Source\Repos\art\art\obj\Debug\net8.0\art.csproj.CoreCompileInputs.cache
+C:\Users\ALİ\Source\Repos\art\art\obj\Debug\net8.0\art.dll
+C:\Users\ALİ\Source\Repos\art\art\obj\Debug\net8.0\refint\art.dll
+C:\Users\ALİ\Source\Repos\art\art\obj\Debug\net8.0\art.pdb
+C:\Users\ALİ\Source\Repos\art\art\obj\Debug\net8.0\art.genruntimeconfig.cache
+C:\Users\ALİ\Source\Repos\art\art\obj\Debug\net8.0\ref\art.dll

@@ -1,0 +1,11 @@
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\bin\Debug\BarnCaseApi.exe.config
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\bin\Debug\BarnCaseApi.exe
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\bin\Debug\BarnCaseApi.pdb
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\obj\Debug\BarnCaseApi.csproj.AssemblyReference.cache
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\obj\Debug\BarnCaseApi.Form1.resources
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\obj\Debug\BarnCaseApi.Properties.Resources.resources
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\obj\Debug\BarnCaseApi.csproj.GenerateResource.cache
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\obj\Debug\BarnCaseApi.csproj.CoreCompileInputs.cache
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\obj\Debug\BarnCaseApi.exe
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\obj\Debug\BarnCaseApi.pdb
+C:\Users\ALİ\Source\Repos\BarnCaseApi\BarnCaseApi\obj\Debug\BarnCaseApi.Form2.resources
