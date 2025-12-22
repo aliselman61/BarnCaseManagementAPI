@@ -1,0 +1,11 @@
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\bin\Debug\net10.0\BarnCase.Domain.deps.json
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\bin\Debug\net10.0\BarnCase.Domain.dll
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\bin\Debug\net10.0\BarnCase.Domain.pdb
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.AssemblyInfoInputs.cache
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.AssemblyInfo.cs
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.dll
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\refint\BarnCase.Domain.dll
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.pdb
+C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\ref\BarnCase.Domain.dll

@@ -1,0 +1,12 @@
+﻿namespace BarnCase.Domain.Entities;
+
+public class User
+{
+    public int Id { get; set; }
+
+    public string Username { get; set; } = null!;
+
+    public decimal Balance { get; set; }
+
+    public ICollection<Farm> Farms { get; set; } = new List<Farm>();
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.AnimalsController",
+    "Method": "BuyAnimal",
+    "RelativePath": "api/animals/buy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "farmId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "animalType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

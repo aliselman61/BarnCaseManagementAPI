@@ -1,0 +1,52 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "BarnCaseManagementAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/animals/buy": {
+      "post": {
+        "tags": [
+          "Animals"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "farmId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "animalType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "Animals"
+    }
+  ]
+}
