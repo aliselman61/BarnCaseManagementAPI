@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BarnCase.Domain\BarnCase.Domain.csproj" />
-    <ProjectReference Include="..\BarnCase.Infrastructure\BarnCase.Data.csproj" />
+    <ProjectReference Include="..\BarnCase.Infrastructure\BarnCase.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

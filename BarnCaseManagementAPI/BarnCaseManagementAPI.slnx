@@ -1,6 +1,6 @@
 <Solution>
   <Project Path="BarnCase.Application/BarnCase.Application.csproj" />
   <Project Path="BarnCase.Domain/BarnCase.Domain.csproj" />
-  <Project Path="BarnCase.Infrastructure/BarnCase.Data.csproj" />
+  <Project Path="BarnCase.Infrastructure/BarnCase.Infrastructure.csproj" />
   <Project Path="BarnCaseManagementAPI/BarnCaseManagementAPI.csproj" />
 </Solution>

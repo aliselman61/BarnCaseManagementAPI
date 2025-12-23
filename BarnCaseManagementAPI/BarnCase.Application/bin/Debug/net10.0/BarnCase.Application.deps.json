@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v10.0": {
       "BarnCase.Application/1.0.0": {
         "dependencies": {
-          "BarnCase.Data": "1.0.0",
-          "BarnCase.Domain": "1.0.0"
+          "BarnCase.Domain": "1.0.0",
+          "BarnCase.Infrastructure": "1.0.0"
         },
         "runtime": {
           "BarnCase.Application.dll": {}
@@ -486,22 +486,22 @@
           }
         }
       },
-      "BarnCase.Data/1.0.0": {
+      "BarnCase.Domain/1.0.0": {
+        "runtime": {
+          "BarnCase.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BarnCase.Infrastructure/1.0.0": {
         "dependencies": {
           "BarnCase.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.1"
         },
         "runtime": {
-          "BarnCase.Data.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "BarnCase.Domain/1.0.0": {
-        "runtime": {
-          "BarnCase.Domain.dll": {
+          "BarnCase.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -760,12 +760,12 @@
       "path": "system.security.cryptography.protecteddata/9.0.4",
       "hashPath": "system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
     },
-    "BarnCase.Data/1.0.0": {
+    "BarnCase.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "BarnCase.Domain/1.0.0": {
+    "BarnCase.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

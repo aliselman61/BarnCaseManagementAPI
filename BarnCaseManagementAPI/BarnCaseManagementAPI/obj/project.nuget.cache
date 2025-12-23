@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KiBAu82cxRg=",
-  "success": false,
-  "projectFilePath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj",
+  "dgSpecHash": "rWh7SWJIPko=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALİ\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\ALİ\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -66,17 +66,5 @@
     "C:\\Users\\ALİ\\.nuget\\packages\\system.security.permissions\\9.0.0\\system.security.permissions.9.0.0.nupkg.sha512",
     "C:\\Users\\ALİ\\.nuget\\packages\\system.windows.extensions\\9.0.0\\system.windows.extensions.9.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Data\\BarnCase.Data.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj",
-      "filePath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj",
-      "libraryId": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Data\\BarnCase.Data.csproj",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

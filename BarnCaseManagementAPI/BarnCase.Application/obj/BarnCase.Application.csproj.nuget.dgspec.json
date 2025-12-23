@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Application\\BarnCase.Application.csproj": {}
+    "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\BarnCase.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Application\\BarnCase.Application.csproj": {
+    "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\BarnCase.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Application\\BarnCase.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\BarnCase.Application.csproj",
         "projectName": "BarnCase.Application",
-        "projectPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Application\\BarnCase.Application.csproj",
+        "projectPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\BarnCase.Application.csproj",
         "packagesPath": "C:\\Users\\ALİ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Application\\obj\\",
+        "outputPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj": {
-                "projectPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj"
+              "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj": {
+                "projectPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj"
               },
-              "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Data.csproj": {
-                "projectPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Data.csproj"
+              "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj"
               }
             }
           }
@@ -350,14 +350,14 @@
         }
       }
     },
-    "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj": {
+    "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj",
         "projectName": "BarnCase.Domain",
-        "projectPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj",
+        "projectPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj",
         "packagesPath": "C:\\Users\\ALİ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -689,14 +689,14 @@
         }
       }
     },
-    "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Data.csproj": {
+    "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Data.csproj",
-        "projectName": "BarnCase.Data",
-        "projectPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj",
+        "projectName": "BarnCase.Infrastructure",
+        "projectPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ALİ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -717,8 +717,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj": {
-                "projectPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj"
+              "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj": {
+                "projectPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Domain\\BarnCase.Domain.csproj"
               }
             }
           }
