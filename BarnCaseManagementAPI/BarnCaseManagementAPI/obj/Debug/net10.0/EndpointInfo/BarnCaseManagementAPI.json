@@ -41,12 +41,45 @@
           }
         }
       }
+    },
+    "/api/products/sell": {
+      "post": {
+        "tags": [
+          "ProductSales"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "productId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { },
   "tags": [
     {
       "name": "Animals"
+    },
+    {
+      "name": "ProductSales"
     }
   ]
 }

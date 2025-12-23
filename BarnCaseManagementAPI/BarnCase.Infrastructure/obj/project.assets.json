@@ -4126,7 +4126,7 @@
       "projectName": "BarnCase.Infrastructure",
       "projectPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\ALİ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALİ\\source\\repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\ALİ\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

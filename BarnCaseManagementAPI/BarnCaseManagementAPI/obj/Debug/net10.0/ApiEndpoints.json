@@ -24,5 +24,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.ProductSalesController",
+    "Method": "SellProduct",
+    "RelativePath": "api/products/sell",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

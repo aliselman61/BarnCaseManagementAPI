@@ -36,6 +36,9 @@ namespace BarnCase.Infrastructure.Migrations
                     b.Property<int>("FarmId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime?>("LastProducedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("LifeTimeInDays")
                         .HasColumnType("int");
 
@@ -148,17 +151,12 @@ namespace BarnCase.Infrastructure.Migrations
             modelBuilder.Entity("BarnCase.Domain.Entities.Product", b =>
                 {
                     b.HasOne("BarnCase.Domain.Entities.Animal", "Animal")
-                        .WithMany("Products")
+                        .WithMany()
                         .HasForeignKey("AnimalId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Animal");
-                });
-
-            modelBuilder.Entity("BarnCase.Domain.Entities.Animal", b =>
-                {
-                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("BarnCase.Domain.Entities.Farm", b =>

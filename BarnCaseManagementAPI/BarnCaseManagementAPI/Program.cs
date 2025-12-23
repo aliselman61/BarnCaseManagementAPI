@@ -2,6 +2,7 @@ using BarnCase.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using BarnCase.Application.Interfaces;
 using BarnCase.Application.Services;
+using BarnCaseManagementAPI.BackgroundServices;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,6 +26,15 @@ builder.Services.AddDbContext<BarnCaseDbContext>(options =>
     );
 });
 
+// Application services
+builder.Services.AddScoped<IAnimalService, AnimalService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductSaleService, ProductSaleService>();
+
+
+// Background service
+builder.Services.AddHostedService<ProductProductionBackgroundService>();
+
 // --------------------
 // Build app
 // --------------------
@@ -42,11 +52,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-// Authorization (JWT ekleyince burada devreye girecek)
 app.UseAuthorization();
-
-// Controllers map
 app.MapControllers();
-
 app.Run();

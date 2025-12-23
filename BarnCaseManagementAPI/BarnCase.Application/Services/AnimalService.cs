@@ -31,7 +31,7 @@ public class AnimalService : IAnimalService
         if (user.Balance < animalPrice)
             throw new Exception("Insufficient balance");
 
-     user.Balance -= animalPrice;
+        user.Balance -= animalPrice;
 
         var animal = new Animal
         {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BarnCase.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25d1f46c5c60e1eaf82b652d7886fb6c061433df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31b742381266aedec82ffbdaf09bbf36cb0325fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BarnCase.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BarnCase.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

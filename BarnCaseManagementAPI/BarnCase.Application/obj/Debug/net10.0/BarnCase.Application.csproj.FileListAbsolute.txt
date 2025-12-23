@@ -15,6 +15,12 @@ C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\
 C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\ref\BarnCase.Application.dll
 C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Application\bin\Debug\net10.0\BarnCase.Data.dll
 C:\Users\ALİ\Source\Repos\BarnCaseManagementAPI\BarnCase.Application\bin\Debug\net10.0\BarnCase.Data.pdb
+C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.csproj.AssemblyReference.cache
+C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.AssemblyInfoInputs.cache
+C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.AssemblyInfo.cs
+C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.csproj.CoreCompileInputs.cache
+C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.sourcelink.json
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\bin\Debug\net10.0\BarnCase.Application.deps.json
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\bin\Debug\net10.0\BarnCase.Application.dll
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\bin\Debug\net10.0\BarnCase.Application.pdb
@@ -22,12 +28,6 @@ C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\bin\Debug\net10.0\BarnCase.Infrastructure.dll
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\bin\Debug\net10.0\BarnCase.Domain.pdb
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\bin\Debug\net10.0\BarnCase.Infrastructure.pdb
-C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.csproj.AssemblyReference.cache
-C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.AssemblyInfoInputs.cache
-C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.AssemblyInfo.cs
-C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.csproj.CoreCompileInputs.cache
-C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.sourcelink.json
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.C71CB19F.Up2Date
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\BarnCase.Application.dll
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Application\obj\Debug\net10.0\refint\BarnCase.Application.dll
