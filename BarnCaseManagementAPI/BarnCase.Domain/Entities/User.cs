@@ -6,7 +6,11 @@ public class User
 
     public string Username { get; set; } = null!;
 
+    public string Role { get; set; } = "User";
+
     public decimal Balance { get; set; }
+
+
 
     public ICollection<Farm> Farms { get; set; } = new List<Farm>();
 }

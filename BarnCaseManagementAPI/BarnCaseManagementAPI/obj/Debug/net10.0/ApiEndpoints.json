@@ -26,6 +26,43 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.FarmsController",
+    "Method": "CreateFarm",
+    "RelativePath": "api/farms",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "farmName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BarnCaseManagementAPI.Controllers.ProductSalesController",
     "Method": "SellProduct",
     "RelativePath": "api/products/sell",
@@ -41,6 +78,27 @@
       {
         "Name": "productId",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.UsersController",
+    "Method": "CreateUser",
+    "RelativePath": "api/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "balance",
+        "Type": "System.Decimal",
         "IsRequired": false
       }
     ],

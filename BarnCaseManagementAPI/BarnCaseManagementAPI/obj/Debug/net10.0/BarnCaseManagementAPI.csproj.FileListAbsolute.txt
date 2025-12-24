@@ -228,7 +228,6 @@ C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseM
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\BarnCaseManagementAPI.AssemblyInfo.cs
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\BarnCaseManagementAPI.csproj.CoreCompileInputs.cache
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\BarnCaseManagementAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\BarnCaseManagementAPI.sourcelink.json
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\bin\Debug\net10.0\BuildHost-net472\Microsoft.Build.Locator.dll
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\bin\Debug\net10.0\BuildHost-net472\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\bin\Debug\net10.0\BuildHost-net472\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config
@@ -438,10 +437,11 @@ C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseM
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\BarnCase.8C4E7CE6.Up2Date
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\BarnCaseManagementAPI.dll
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\refint\BarnCaseManagementAPI.dll
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\BarnCaseManagementAPI.pdb
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\BarnCaseManagementAPI.genruntimeconfig.cache
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\ref\BarnCaseManagementAPI.dll
+C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCaseManagementAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

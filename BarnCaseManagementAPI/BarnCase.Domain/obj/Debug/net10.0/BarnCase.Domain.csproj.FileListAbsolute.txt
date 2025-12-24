@@ -16,7 +16,6 @@ C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.AssemblyInfoInputs.cache
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.AssemblyInfo.cs
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.csproj.CoreCompileInputs.cache
-C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.sourcelink.json
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.dll
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\refint\BarnCase.Domain.dll
 C:\Users\ALİ\source\repos\BarnCaseManagementAPI\BarnCaseManagementAPI\BarnCase.Domain\obj\Debug\net10.0\BarnCase.Domain.pdb

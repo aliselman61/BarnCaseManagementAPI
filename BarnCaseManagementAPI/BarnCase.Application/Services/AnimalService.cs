@@ -24,7 +24,6 @@ public class AnimalService : IAnimalService
         var farm = _context.Farms.FirstOrDefault(f => f.Id == farmId && f.UserId == userId);
         if (farm == null)
             throw new Exception("Farm not found");
-
         
         const decimal animalPrice = 100;
 

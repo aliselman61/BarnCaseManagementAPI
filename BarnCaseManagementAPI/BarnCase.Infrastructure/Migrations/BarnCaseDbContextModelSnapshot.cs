@@ -117,6 +117,10 @@ namespace BarnCase.Infrastructure.Migrations
                     b.Property<decimal>("Balance")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

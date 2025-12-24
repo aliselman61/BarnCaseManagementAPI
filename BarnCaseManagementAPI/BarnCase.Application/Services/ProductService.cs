@@ -16,7 +16,7 @@ public class ProductService : IProductService
     public void ProduceProducts()
     {
         var now = DateTime.UtcNow;
-
+         
         var animals = _context.Animals.ToList();
 
         foreach (var animal in animals)

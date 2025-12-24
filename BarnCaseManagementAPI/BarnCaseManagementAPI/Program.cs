@@ -4,6 +4,9 @@ using BarnCase.Application.Interfaces;
 using BarnCase.Application.Services;
 using BarnCaseManagementAPI.BackgroundServices;
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +21,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// DbContext (EF Core 10)
+// DbContext
 builder.Services.AddDbContext<BarnCaseDbContext>(options =>
 {
     options.UseSqlServer(
@@ -30,7 +33,29 @@ builder.Services.AddDbContext<BarnCaseDbContext>(options =>
 builder.Services.AddScoped<IAnimalService, AnimalService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductSaleService, ProductSaleService>();
+builder.Services.AddScoped<IFarmService, FarmService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
+// --------------------
+//      JWT AUTH 
+// --------------------
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])
+            )
+        };
+    });
 
 // Background service
 builder.Services.AddHostedService<ProductProductionBackgroundService>();
@@ -38,13 +63,11 @@ builder.Services.AddHostedService<ProductProductionBackgroundService>();
 // --------------------
 // Build app
 // --------------------
-
 var app = builder.Build();
 
 // --------------------
 // Middleware pipeline
 // --------------------
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -52,6 +75,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 app.Run();

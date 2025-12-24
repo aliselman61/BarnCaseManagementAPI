@@ -1,6 +1,6 @@
 ﻿namespace BarnCase.Application.Interfaces
 {
-    internal interface IFarmService
+    public interface IFarmService
     {
         int CreateFarm(int userId, string farmName);
     }
