@@ -2,5 +2,5 @@
 
 public interface IUserService
 {
-    int CreateUser(string username, decimal initialBalance);
+    object CreateUser(string username, decimal initialBalance);
 }

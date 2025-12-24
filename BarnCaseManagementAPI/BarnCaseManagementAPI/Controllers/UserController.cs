@@ -17,7 +17,7 @@ public class UsersController : ControllerBase
     [HttpPost]
     public IActionResult CreateUser(string username, decimal balance)
     {
-        var userId = _userService.CreateUser(username, balance);
-        return Ok(new { UserId = userId });
+        var result = _userService.CreateUser(username, balance);
+        return Ok(result);
     }
 }

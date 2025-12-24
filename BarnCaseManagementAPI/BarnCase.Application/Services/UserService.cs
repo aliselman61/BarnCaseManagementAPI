@@ -13,17 +13,22 @@ public class UserService : IUserService
         _context = context;
     }
 
-    public int CreateUser(string username, decimal initialBalance)
+    public object CreateUser(string username, decimal initialBalance)
     {
         var user = new User
         {
             Username = username,
-            Balance = initialBalance
+            Balance = initialBalance,
+            Role = "User"
         };
 
         _context.Users.Add(user);
         _context.SaveChanges();
 
-        return user.Id;
+        return new
+        {
+            userId = user.Id,
+            username = user.Username
+        };
     }
 }
