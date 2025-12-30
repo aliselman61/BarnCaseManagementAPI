@@ -15,9 +15,9 @@ public class ProductSalesController : ControllerBase
     }
 
     [HttpPost("sell")]
-    public IActionResult SellProduct(int userId, int productId)
+    public IActionResult SellProduct(Guid userId, Guid productId)
     {
-        _saleService.SellProduct(userId, productId);
-        return Ok("Product sold successfully");
+      _saleService.SellProduct(userId, productId);
+      return Ok("Product sold successfully");
     }
 }

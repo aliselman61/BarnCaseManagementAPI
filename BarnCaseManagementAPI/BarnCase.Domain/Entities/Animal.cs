@@ -1,15 +1,17 @@
-﻿namespace BarnCase.Domain.Entities;
+﻿using BarnCase.Domain.Entities;
 
 public class Animal
 {
-    public int Id { get; set; }
-    public string Type { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public int LifeTimeInDays { get; set; }
-    public int ProductionIntervalInHours { get; set; }
+    public Guid Id { get; set; }
 
-    public DateTime? LastProducedAt { get; set; }
+    public string Name { get; set; } = null!;
+    public string Type { get; set; } = null!;
+    public int Age { get; set; }
+    public decimal Price { get; set; }
 
-    public int FarmId { get; set; }
-    public Farm Farm { get; set; }
+    public DateTime LastProducedAt { get; set; }
+    public int ProductionIntervalInMinutes { get; set; }
+
+    public Guid FarmId { get; set; }
+    public Farm Farm { get; set; } = null!;
 }

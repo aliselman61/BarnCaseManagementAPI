@@ -1,7 +1,10 @@
-﻿namespace BarnCase.Application.Interfaces
+﻿using BarnCase.Domain.Entities;
+
+public interface IFarmService
 {
-    public interface IFarmService
-    {
-        int CreateFarm(int userId, string farmName);
-    }
+    Farm CreateFarm(string name, Guid userId);
+    Farm UpdateFarm(Guid farmId, string name);   
+    void DeleteFarm(Guid farmId);
+    Farm GetById(Guid farmId);
+    IEnumerable<Farm> GetAll();
 }

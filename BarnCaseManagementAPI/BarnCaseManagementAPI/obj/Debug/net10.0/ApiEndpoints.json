@@ -1,6 +1,69 @@
 [
   {
     "ContainingType": "BarnCaseManagementAPI.Controllers.AnimalsController",
+    "Method": "GetAll",
+    "RelativePath": "api/animals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.AnimalsController",
+    "Method": "GetById",
+    "RelativePath": "api/animals/{animalId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.AnimalsController",
+    "Method": "UpdatePrice",
+    "RelativePath": "api/animals/{animalId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "price",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.AnimalsController",
+    "Method": "Delete",
+    "RelativePath": "api/animals/{animalId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.AnimalsController",
     "Method": "BuyAnimal",
     "RelativePath": "api/animals/buy",
     "HttpMethod": "POST",
@@ -8,19 +71,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "farmId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "animalType",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "BarnCaseManagementAPI.Models.BuyAnimalDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -50,14 +103,72 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "BarnCaseManagementAPI.Models.CreateFarmDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.FarmsController",
+    "Method": "GetAll",
+    "RelativePath": "api/farms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.FarmsController",
+    "Method": "UpdateFarm",
+    "RelativePath": "api/farms/{farmId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farmId",
+        "Type": "System.Guid",
+        "IsRequired": true
       },
       {
-        "Name": "farmName",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "BarnCaseManagementAPI.Models.UpdateFarmDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.FarmsController",
+    "Method": "GetById",
+    "RelativePath": "api/farms/{farmId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farmId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.FarmsController",
+    "Method": "Delete",
+    "RelativePath": "api/farms/{farmId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farmId",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -72,12 +183,12 @@
     "Parameters": [
       {
         "Name": "userId",
-        "Type": "System.Int32",
+        "Type": "System.Guid",
         "IsRequired": false
       },
       {
         "Name": "productId",
-        "Type": "System.Int32",
+        "Type": "System.Guid",
         "IsRequired": false
       }
     ],
@@ -85,21 +196,79 @@
   },
   {
     "ContainingType": "BarnCaseManagementAPI.Controllers.UsersController",
-    "Method": "CreateUser",
+    "Method": "Create",
     "RelativePath": "api/users",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "username",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "BarnCaseManagementAPI.Models.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/users/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
       },
       {
-        "Name": "balance",
-        "Type": "System.Decimal",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "BarnCaseManagementAPI.Models.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/users/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnCaseManagementAPI.Controllers.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/users/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

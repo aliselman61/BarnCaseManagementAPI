@@ -15,7 +15,7 @@ namespace BarnCase.Application.Services
             _context = context;
         }
 
-        public void SellProduct(int userId, int productId)
+        public void SellProduct(Guid userId, Guid productId)
         {
            
             var user = _context.Users.FirstOrDefault(u => u.Id == userId);

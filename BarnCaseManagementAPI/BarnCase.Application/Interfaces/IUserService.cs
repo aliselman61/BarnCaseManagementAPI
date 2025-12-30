@@ -1,6 +1,16 @@
-﻿namespace BarnCase.Application.Interfaces;
+﻿using BarnCase.Domain.Entities;
+
+namespace BarnCase.Application.Interfaces;
 
 public interface IUserService
 {
-    object CreateUser(string username, decimal initialBalance);
+    User CreateUser(string username, decimal initialBalance);
+
+    User UpdateUser(Guid userId, decimal balance);
+
+    void DeleteUser(Guid userId);
+
+    User GetById(Guid userId);
+
+    IEnumerable<User> GetAll();
 }

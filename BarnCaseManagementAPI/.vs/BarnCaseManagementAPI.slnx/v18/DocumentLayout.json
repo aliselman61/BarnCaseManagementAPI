@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncase.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|solutionrelative:barncase.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncase.application\\services\\farmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|solutionrelative:barncase.application\\services\\farmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncasemanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|solutionrelative:barncasemanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E0B9507-FB4F-DD32-7E09-4FA37219D581}|BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncase.infrastructure\\migrations\\barncasedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0B9507-FB4F-DD32-7E09-4FA37219D581}|BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj|solutionrelative:barncase.infrastructure\\migrations\\barncasedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncase.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|solutionrelative:barncase.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E0B9507-FB4F-DD32-7E09-4FA37219D581}|BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncase.infrastructure\\migrations\\20251230103624_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0B9507-FB4F-DD32-7E09-4FA37219D581}|BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj|solutionrelative:barncase.infrastructure\\migrations\\20251230103624_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncasemanagementapi\\controllers\\farmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|solutionrelative:barncasemanagementapi\\controllers\\farmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncase.application\\interfaces\\ifarmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|solutionrelative:barncase.application\\interfaces\\ifarmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncasemanagementapi\\model\\userdtos\\updatefarmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|solutionrelative:barncasemanagementapi\\model\\userdtos\\updatefarmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncasemanagementapi\\model\\userdtos\\createfarmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|solutionrelative:barncasemanagementapi\\model\\userdtos\\createfarmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncase.application\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|solutionrelative:barncase.application\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncasemanagementapi\\controllers\\productsalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|solutionrelative:barncasemanagementapi\\controllers\\productsalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncase.application\\interfaces\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78E11AE7-F138-39E8-BDF9-8DDC3F5E53C0}|BarnCase.Application\\BarnCase.Application.csproj|solutionrelative:barncase.application\\interfaces\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncasemanagementapi\\model\\userdtos\\buyanimaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|solutionrelative:barncasemanagementapi\\model\\userdtos\\buyanimaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0B9507-FB4F-DD32-7E09-4FA37219D581}|BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncase.infrastructure\\data\\barncasedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0B9507-FB4F-DD32-7E09-4FA37219D581}|BarnCase.Infrastructure\\BarnCase.Infrastructure.csproj|solutionrelative:barncase.infrastructure\\data\\barncasedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|c:\\users\\al\u0130\\source\\repos\\barncasemanagementapi\\barncasemanagementapi\\barncasemanagementapi\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7E3EE1-30AC-7854-F1AD-ECDC518BDD60}|BarnCaseManagementAPI\\BarnCaseManagementAPI.csproj|solutionrelative:barncasemanagementapi\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,69 +62,164 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "BarnCase.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "BarnCase.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BarnCaseDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\Migrations\\BarnCaseDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BarnCase.Infrastructure\\Migrations\\BarnCaseDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\Migrations\\BarnCaseDbContextModelSnapshot.cs",
+              "RelativeToolTip": "BarnCase.Infrastructure\\Migrations\\BarnCaseDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T08:14:42.753Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-12-30T11:11:28.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FarmService.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Services\\FarmService.cs",
+              "RelativeDocumentMoniker": "BarnCase.Application\\Services\\FarmService.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Services\\FarmService.cs",
+              "RelativeToolTip": "BarnCase.Application\\Services\\FarmService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwDMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T10:51:28.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "BarnCaseManagementAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "BarnCaseManagementAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IFarmService.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Interfaces\\IFarmService.cs",
+              "RelativeDocumentMoniker": "BarnCase.Application\\Interfaces\\IFarmService.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Interfaces\\IFarmService.cs",
+              "RelativeToolTip": "BarnCase.Application\\Interfaces\\IFarmService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:18:26.846Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T10:50:54.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateFarmDto.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Model\\UserDtos\\UpdateFarmDto.cs",
+              "RelativeDocumentMoniker": "BarnCaseManagementAPI\\Model\\UserDtos\\UpdateFarmDto.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Model\\UserDtos\\UpdateFarmDto.cs",
+              "RelativeToolTip": "BarnCaseManagementAPI\\Model\\UserDtos\\UpdateFarmDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T10:50:35.691Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "BarnCase.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "BarnCase.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "20251230103624_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\Migrations\\20251230103624_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BarnCase.Infrastructure\\Migrations\\20251230103624_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\Migrations\\20251230103624_InitialCreate.cs",
+              "RelativeToolTip": "BarnCase.Infrastructure\\Migrations\\20251230103624_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:18:01.955Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T10:36:24.219Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnimalService.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Services\\AnimalService.cs",
+              "RelativeDocumentMoniker": "BarnCase.Application\\Services\\AnimalService.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Services\\AnimalService.cs",
+              "RelativeToolTip": "BarnCase.Application\\Services\\AnimalService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAkwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T07:59:59.788Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FarmsController.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Controllers\\FarmsController.cs",
+              "RelativeDocumentMoniker": "BarnCaseManagementAPI\\Controllers\\FarmsController.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Controllers\\FarmsController.cs",
+              "RelativeToolTip": "BarnCaseManagementAPI\\Controllers\\FarmsController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T07:51:52.066Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateFarmDto.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Model\\UserDtos\\CreateFarmDto.cs",
+              "RelativeDocumentMoniker": "BarnCaseManagementAPI\\Model\\UserDtos\\CreateFarmDto.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Model\\UserDtos\\CreateFarmDto.cs",
+              "RelativeToolTip": "BarnCaseManagementAPI\\Model\\UserDtos\\CreateFarmDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T07:54:20.364Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BuyAnimalDto.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Model\\UserDtos\\BuyAnimalDto.cs",
+              "RelativeDocumentMoniker": "BarnCaseManagementAPI\\Model\\UserDtos\\BuyAnimalDto.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Model\\UserDtos\\BuyAnimalDto.cs",
+              "RelativeToolTip": "BarnCaseManagementAPI\\Model\\UserDtos\\BuyAnimalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T08:03:03.532Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BarnCaseDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\Data\\BarnCaseDbContext.cs",
+              "RelativeDocumentMoniker": "BarnCase.Infrastructure\\Data\\BarnCaseDbContext.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Infrastructure\\Data\\BarnCaseDbContext.cs",
+              "RelativeToolTip": "BarnCase.Infrastructure\\Data\\BarnCaseDbContext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T08:26:27.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAnimalService.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Interfaces\\IAnimalService.cs",
+              "RelativeDocumentMoniker": "BarnCase.Application\\Interfaces\\IAnimalService.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCase.Application\\Interfaces\\IAnimalService.cs",
+              "RelativeToolTip": "BarnCase.Application\\Interfaces\\IAnimalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T07:58:47.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductSalesController.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Controllers\\ProductSalesController.cs",
+              "RelativeDocumentMoniker": "BarnCaseManagementAPI\\Controllers\\ProductSalesController.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Controllers\\ProductSalesController.cs",
+              "RelativeToolTip": "BarnCaseManagementAPI\\Controllers\\ProductSalesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T07:51:49.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AnimalsController.cs",
+              "DocumentMoniker": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Controllers\\AnimalsController.cs",
+              "RelativeDocumentMoniker": "BarnCaseManagementAPI\\Controllers\\AnimalsController.cs",
+              "ToolTip": "C:\\Users\\AL\u0130\\Source\\Repos\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\BarnCaseManagementAPI\\Controllers\\AnimalsController.cs",
+              "RelativeToolTip": "BarnCaseManagementAPI\\Controllers\\AnimalsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T07:51:48.012Z"
             }
           ]
         }

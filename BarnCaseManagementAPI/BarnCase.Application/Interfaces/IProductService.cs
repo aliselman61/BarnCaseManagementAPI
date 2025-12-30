@@ -1,6 +1,4 @@
-﻿ 
-
-namespace BarnCase.Application.Interfaces;
+﻿namespace BarnCase.Application.Interfaces;
 
 public interface IProductService
 {

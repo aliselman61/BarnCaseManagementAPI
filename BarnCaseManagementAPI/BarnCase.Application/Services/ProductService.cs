@@ -21,10 +21,10 @@ public class ProductService : IProductService
 
         foreach (var animal in animals)
         {
-            var lastProduced = animal.LastProducedAt ?? animal.CreatedAt;
+            var lastProduced = animal.LastProducedAt;
             var hoursPassed = (now - lastProduced).TotalHours;
 
-            if (hoursPassed >= animal.ProductionIntervalInHours)
+            if (hoursPassed >= animal.ProductionIntervalInMinutes)
             {
                 var product = new Product
                 {
@@ -38,7 +38,6 @@ public class ProductService : IProductService
                 animal.LastProducedAt = now;
             }
         }
-
-        _context.SaveChanges();
-    }
+       _context.SaveChanges();
+    } 
 }

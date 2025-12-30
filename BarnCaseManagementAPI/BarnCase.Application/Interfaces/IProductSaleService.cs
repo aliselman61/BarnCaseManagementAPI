@@ -2,5 +2,5 @@
 
 public interface IProductSaleService
 {
-    void SellProduct(int userId, int productId);
+    void SellProduct(Guid userId, Guid productId);
 }

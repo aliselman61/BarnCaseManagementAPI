@@ -1,6 +1,7 @@
 ﻿using BarnCase.Application.Interfaces;
 using BarnCase.Domain.Entities;
 using BarnCase.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace BarnCase.Application.Services;
 
@@ -13,21 +14,49 @@ public class FarmService : IFarmService
         _context = context;
     }
 
-    public int CreateFarm(int userId, string farmName)
+    public Farm CreateFarm(string name, Guid userId)
     {
-        var user = _context.Users.FirstOrDefault(u => u.Id == userId);
-        if (user == null)
-            throw new Exception("User not found");
-
         var farm = new Farm
         {
-            Name = farmName,
+            Id = Guid.NewGuid(),
+            Name = name,
             UserId = userId
         };
 
         _context.Farms.Add(farm);
         _context.SaveChanges();
+        return farm;
+    }
 
-        return farm.Id;
+    public Farm UpdateFarm(Guid farmId, string name)
+    {
+        var farm = _context.Farms.FirstOrDefault(f => f.Id == farmId)
+            ?? throw new Exception("Farm not found");
+
+        farm.Name = name;
+        _context.SaveChanges();
+        return farm;
+    }
+
+    public void DeleteFarm(Guid farmId)
+    {
+        var farm = _context.Farms.FirstOrDefault(f => f.Id == farmId)
+            ?? throw new Exception("Farm not found");
+
+        _context.Farms.Remove(farm);
+        _context.SaveChanges();
+    }
+
+    public Farm GetById(Guid farmId)
+    {
+        return _context.Farms
+            .AsNoTracking()
+            .FirstOrDefault(f => f.Id == farmId)
+            ?? throw new Exception("Farm not found");
+    }
+
+    public IEnumerable<Farm> GetAll()
+    {
+        return _context.Farms.AsNoTracking().ToList();
     }
 }
